@@ -69,6 +69,7 @@ then
 	# sudo cp -f ~/GadgetPi/interfaces /etc/network/
 	sudo chmod +x ~/GadgetPi/gadget.sh
 	sudo chmod +x ~/GadgetPi/fingerprint.sh
+	printf "\nDefault IP address for usb0 is 169.254.100.100\n"
 	printf "\nDone.\nYou can now reboot the device.\n"
 else
 	printf "Installation aborted.\n"

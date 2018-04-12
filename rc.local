@@ -51,4 +51,7 @@ modprobe libcomposite
 # # Start Responder
 # /usr/bin/screen -dmS responder bash -c 'cd /home/pi/Responder/; python Responder.py -I br0 -wF'
 
+# Set fixed Link-Local IP for USB0
+ifconfig usb0 169.254.100.100
+
 exit 0
