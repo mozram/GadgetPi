@@ -5,7 +5,7 @@
 # 03xx means string descriptors (wValue)
 # 0409 means english (wIndex)
 # wLength is the size of the descriptor and this is what we want
-LOGFILE=/home/pi/HackPi/usbreq.log
+LOGFILE=/home/pi/GadgetPi/usbreq.log
 dmesg | grep "USB DWC2 REQ 80 06 03" > $LOGFILE
 WLENGTHS=`awk '$9!="0000" { print $10 }' $LOGFILE`
 TOTAL=0
