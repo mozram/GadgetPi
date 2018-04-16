@@ -1,3 +1,6 @@
+README in progress...
+
+=================================================
 <h1>HackPi Readme</h1>
 
 HackPi is a combination of <a href="https://samy.pl/poisontap/">Samy Kamkar's Poisontap</a> and <a href="https://zone13.io/post/Raspberry-Pi-Zero-for-credential-snagging/">Responder (original idea by Mubix)</a> on a Raspberry Pi Zero.
