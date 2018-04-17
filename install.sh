@@ -64,9 +64,6 @@ then
 	sudo cp -f ~/GadgetPi/modules /etc/
 	sudo cp -f ~/GadgetPi/rc.local /etc/
 	sudo chmod +x /etc/rc.local
-	# sudo cp -f ~/GadgetPi/isc-dhcp-server /etc/default/
-	# sudo cp -f ~/GadgetPi/dhcpd.conf /etc/dhcp/
-	# sudo cp -f ~/GadgetPi/interfaces /etc/network/
 	sudo chmod +x ~/GadgetPi/gadget.sh
 	sudo chmod +x ~/GadgetPi/fingerprint.sh
 	printf "\nDefault IP address for usb0 is 169.254.100.100\n"
